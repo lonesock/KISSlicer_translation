@@ -1,10 +1,12 @@
 #.  KISSlicer Translation File
-#.  - Save this file as 'your_language.po'
+#.  - Thank you for your help!!
+#.  - Save this file as 'KISSlicer_[your language code].po'
 #.  - Fill in the msgstr values with translations of the matching msgid value
 #.  - Leave any characters you do not recognize
 #.  - Any translation left blank will default to the original English
 #.  - You can use standard gettext tools (like Poedit) to create a .po file
-#.  - Thank you for your help! Please enter your name(s) here:
+#.
+#.  - Please enter 'XYZ Translation by [your name(s)]'
 msgid "_Translation_By_"
 msgstr ""
 
@@ -481,6 +483,14 @@ msgid "Temperature of the extruder while extruding"
 msgstr ""
 
 #.  Widget
+msgid "Mark Start/Stop"
+msgstr ""
+
+#.  Tooltip for 'Mark Start/Stop'
+msgid "Some firmware types use M101/3 or G10/1 to trigger destring.  Note: this is forced to M101/3 internally for BfB printers"
+msgstr ""
+
+#.  Widget
 msgid "Material"
 msgstr ""
 
@@ -858,14 +868,6 @@ msgstr ""
 
 #.  Tooltip for 'Use Defaults'
 msgid "Force any settings above the 'Settings Level' to use defaults"
-msgstr ""
-
-#.  Widget
-msgid "Use M101 && M103"
-msgstr ""
-
-#.  Tooltip for 'Use M101 && M103'
-msgid "Some firmware types use M101 and M103 to trigger destring.  Note: this is forced on internally for BfB printers"
 msgstr ""
 
 #.  Menu Item

@@ -1,0 +1,951 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KISSlicer\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sergey Taranenko <setar@roboforum.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "_Translation_By_"
+msgstr "Сергей Тараненко setar@@roboforum.ru"
+
+#. Widget
+msgid " Defaults@>"
+msgstr "Сброс@>"
+
+#. Tooltip for ' Defaults@>'
+msgid "Prepends machine-dependent defaults into the G-code includes."
+msgstr "Вставка значений по умолчанию для принтер-зависимых G-кодов"
+
+#. Widget
+#. Tooltip for '$ / cm^3'
+msgid "Cost per cm^3, use whatever currency type you wish"
+msgstr "Стоимость см^3 материала, используйте удобную валюту."
+
+#. Widget
+#. Tooltip for '$ / hour'
+msgid "Cost of running this machine for one hour"
+msgstr "Стоимость часа работы принтера , используйте удобную валюту."
+
+#. Widget
+msgid "&Open"
+msgstr "&Open"
+
+#. Tooltip for '&Open'
+msgid "Click to add models"
+msgstr "Добавить модель"
+
+#. Widget
+msgid "&Save"
+msgstr "&Save"
+
+#. Tooltip for '&Save'
+msgid "Save the G-code to a file"
+msgstr "Записать G-код в файл"
+
+#. Widget
+msgid "&Slice"
+msgstr "&Slice"
+
+#. Tooltip for '&Slice'
+msgid "Generate G-code for all parts on the bed"
+msgstr "Сгенерировать G-код для всех моделей на кровати"
+
+#. Widget
+msgid "&Stop"
+msgstr "&Stop"
+
+#. Tooltip for '&Stop'
+msgid "Stop the current slicing operation"
+msgstr "Остановить текущий рассчёт"
+
+#. Widget
+msgid "..."
+msgstr "..."
+
+#. Tooltip for '...'
+msgid "Choose the Bed STL Model"
+msgstr "Выбор STL модели визуализации кровати"
+
+#. Widget
+msgid "1st Layer Speed"
+msgstr "Скорость 1го слоя"
+
+#. Tooltip for '1st Layer Speed'
+msgid "Maximum speed to travel while extruding the 1st layer."
+msgstr "Максимальная скорость печати первого слоя"
+
+#. Widget
+msgid "@2> Calculate"
+msgstr "@2> Рассчитать"
+
+#. Tooltip for '@2> Calculate'
+msgid "Calculate the cost per cm^3"
+msgstr "Рассчетная стоимость"
+
+#. Widget
+msgid "@< Fast     Precise@>"
+msgstr "@< Быстрее | Точнее@>"
+
+#. Tooltip for '@< Fast     Precise@>'
+msgid "Controls the print speed (using the Printer profile's fast and slow speed settings)."
+msgstr "Управляет скоростью печати (используя максимальную и минимальную скорости из настроек принтера)"
+
+#. Widget
+msgid "@< Off [Support]  Dense@>"
+msgstr "@< нет [поддержек] много@>"
+
+#. Tooltip for '@< Off [Support]  Dense@>'
+msgid "Controls the density of the main support"
+msgstr "Задает плотность элементов поддержки"
+
+#. Menu Item
+msgid "About"
+msgstr "О программе"
+
+#. Menu Item
+msgid "All Models"
+msgstr "Все модели"
+
+#. Menu Item
+msgid "Angle"
+msgstr "Угол"
+
+#. Menu Item
+msgid "Auto-Rotate For Packing"
+msgstr "Авто-вращение для компановки"
+
+#. Widget
+msgid "Axis"
+msgstr "Оси"
+
+#. Tooltip for 'Axis'
+msgid "E is standard, Mach3 uses A B C"
+msgstr "Обычно E, Mach3 использует A B C"
+
+#. Menu Item
+msgid "Background"
+msgstr "Фон"
+
+#. Widget
+msgid "Bed"
+msgstr "Кровать"
+
+#. Tooltip for 'Bed'
+msgid "If you have a heated bed, you can use the <BED> token in the G-code includes"
+msgstr "Если у вас кровать с подогревом можете использовать ключ <BED> для вставки темпаратуры из профиля в ваш G-код"
+
+#. Menu Item
+msgid "Bed Level && Z"
+msgstr "Уровень кровати и Z"
+
+#. Widget
+msgid "Bed Roughness [mm]"
+msgstr "Неровность кровати [мм]"
+
+#. Tooltip for 'Bed Roughness [mm]'
+msgid "Bed Z_max - Z_min: 1st layer thickness is fattened to compensate"
+msgstr Величина нелинейности стола (Zmax - Zmin), 1й слой будет выше на это значение для выравнивания"
+
+#. Widget
+msgid "Bed STL Model"
+msgstr "Mодель стола"
+
+#. Tooltip for 'Bed STL Model'
+msgid "Chose a STL model to represent the printer's bed (make sure the origin coincides with where the printer would deposit plastic at 0,0)"
+msgstr "Выберите STL модель кровати для визуализации (убедитесь что координатный ноль модели совпадает с нулем калибровки принтера)"
+
+#. Widget
+msgid "Bed Size [mm]  X"
+msgstr "Размер кровати [мм] X"
+
+#. Tooltip for 'Bed Size [mm]  X'
+msgid "Available print width of the bed."
+msgstr "Доступные для печати размеры"
+
+#. Widget
+msgid "Center"
+msgstr "Центр"
+
+#. Tooltip for 'Center'
+msgid "Center all models on the bed"
+msgstr "Центр всех моделей на кровати"
+
+#. Widget
+msgid "Color"
+msgstr "Цвет"
+
+#. Tooltip for 'Color'
+msgid "Select the color of this filament"
+msgstr "Цвет материала"
+
+#. Menu Item
+msgid "Color Scheme"
+msgstr "Цветовая схема"
+
+#. Widget
+msgid "Cool"
+msgstr "Обдув"
+
+#. Tooltip for 'Cool'
+msgid "If slowing a layer to reach 'Min Layer [s]', make sure the fan is at least at this Duty Cycle %"
+msgstr "Скорость вентилятора (в %) при достигнутом замедлении до минимального времени печати слоя"
+
+#. Widget
+msgid "Copy<LF>Profile"
+msgstr "Скопировать<LF>профиль"
+
+#. Tooltip for 'Copy<LF>Profile'
+msgid "Copy this profile into a new one"
+msgstr "Скопировать этот профиль в новый"
+
+#. Widget
+msgid "Count"
+msgstr "Кол-во"
+
+#. Tooltip for 'Count'
+msgid "How many to print"
+msgstr "Сколько напечатать"
+
+#. Widget
+msgid "Crowning Threshold [mm]"
+msgstr "Порог цепочек [мм]"
+
+#. Tooltip for 'Crowning Threshold [mm]'
+msgid "Crowning tries to fill in small gaps and thin walls.  Crowning paths must be longer than this to be kept.  Negative values disable crowning. 1mm is a good starting value."
+msgstr "Цепочки (Crowning) используется для заполнения малых разрывов и тонких стенок. Элементы подлежащие сцепке выстраиваются в длинную траекторию, насколько это возможно. Отрицательные значения выключают сцепку. 1мм хорошее стартовое значение."
+
+#. Widget
+msgid "De-String"
+msgstr "Откат/подача"
+
+#. Tooltip for 'De-String'
+msgid "Enables a prime at the start of a path and a retract at the end"
+msgstr "Включает подачу (prime) в начале и откат (destring) в конце траектории"
+
+#. Menu Item
+msgid "Delete"
+msgstr "Удалить"
+
+#. Widget
+msgid "Delete<LF>Profile"
+msgstr "Удалить<LF>профиль"
+
+#. Tooltip for 'Delete<LF>Profile'
+msgid "Delete the current profil"
+msgstr "Удалить текущий профиль"
+
+#. Widget
+msgid "Diameter [mm]"
+msgstr "Диаметр [мм]"
+
+#. Tooltip for 'Diameter [mm]'
+msgid "Precise diameter of the filament"
+msgstr "Точный (измерянный) диаметр прута материала"
+
+#. Menu Item
+msgid "Disable 3D View on Slice"
+msgstr "Не визуализировать при рассчёте"
+
+#. Menu Item
+msgid "Enter Product Key"
+msgstr "Введите лицензионный ключ"
+
+#. Menu Item
+msgid "Export Slice Debug SDF"
+msgstr "Экспорт SDF (Slice Debug)"
+
+#. Menu Item
+msgid "Extruder Flow"
+msgstr "Поток экструзии"
+
+#. Widget
+msgid "Extrusion Width [mm]"
+msgstr "Ширина экструзии [мм]"
+
+#. Tooltip for 'Extrusion Width [mm]'
+msgid "Width of the extruded path (nozzle dia. is a good initial value)"
+msgstr "Ширина нитки экструзии в траектории (диаметр сопла - хорошее начальное значение, уменьшайте для \"нахлёста\" или увеличивайте для ускорения заполнения)"
+
+#. Widget
+msgid "Fan Z [mm]"
+msgstr "Z обдув [мм]"
+
+#. Tooltip for 'Fan Z [mm]'
+msgid "The fan will only be enabled once the head is this distance from the bed. (Note: KS compensates for Z-offset)"
+msgstr "Обдув начнет работать не раньше этой высоты от кровати (внимание: будет добавлена величина \"неровность кровати\")"
+
+#. Menu Item
+msgid "File"
+msgstr "Файл"
+
+#. Widget
+msgid "File Extension"
+msgstr "Расширение<LF>файла"
+
+#. Tooltip for 'File Extension'
+msgid "Common values are bfb or gcode"
+msgstr "Обычно значения gcode, g или bfb"
+
+#. Widget
+msgid "Firmware Type"
+msgstr "Тип прошивки"
+
+#. Tooltip for 'Firmware Type'
+msgid "What type of firmware does this printer use?"
+msgstr "Какой тип прошивки использует ваш принтер? (Marlin, Sprinter = 5D - Absolute E)"
+
+#. Widget
+msgid "First Layer"
+msgstr "1й слой"
+
+#. Tooltip for 'First Layer'
+msgid "Temperature of the extruder while extruding the first layer onto the bed.  Warm it up a bit for better stick."
+msgstr "Температура экструдера при печати первого слоя, немного увеличьте для лучшего сцепления"
+
+#. Widget
+msgid "Flow Tweak"
+msgstr "Поток"
+
+#. Tooltip for 'Flow Tweak'
+msgid "The nominal flowrate is calculated based on path and extruder settings, but this can compensate for small material differences"
+msgstr "Номинальное значение потока расчитывается автоматически, однако можно его немного изменять для компенсации разницы материалов"
+
+#. Menu Item
+msgid "Foreground"
+msgstr "Передний план"
+
+#. Widget
+msgid "Gain"
+msgstr "Усиление"
+
+#. Tooltip for 'Gain'
+msgid "Usually leave this at 1.  You can change it to account for new gear ratios or such"
+msgstr "Обычно оставляйте 1, можно изменить для компенсации при смене передаточного числа шестерен или аналогичных факторах меняющих зананное в прошивке число шагов на 1 мм прутка"
+
+#. Widget
+msgid "Gap"
+msgstr "Зазор"
+
+#. Tooltip for 'Gap'
+msgid "Gap [mm] between the support and the object"
+msgstr "Зазор [мм] между объектом и поддержками"
+
+#. Widget
+msgid "Has Fan PWM (M106 Sn)"
+msgstr "Fan PWM (M106 Sn)"
+
+#. Tooltip for 'Has Fan PWM (M106 Sn)'
+msgid "The firmware accepts Fan PWM control codes.  If unchecked, Fan PWM will be approximated by alternating M106 & M107 commands."
+msgstr "Прошивка понимает коды управления ШИМ вентилятора (контроль скорости), если не включено то будет использоваться эмуляция ШИМ в G-коде через периодическое включение и выключение вентилятора на полную скорость (команды M106 и M107)"
+
+#. Widget
+msgid "Height"
+msgstr "Высота"
+
+#. Tooltip for 'Height'
+msgid "Scale so the max height is this"
+msgstr "Масштабировать максимальную высоту"
+
+#. Menu Item
+msgid "Help"
+msgstr "Помошь"
+
+#. Menu Item
+msgid "Inch -> mm"
+msgstr "Дюйм -> мм"
+
+#. Widget
+msgid "Include Comments"
+msgstr "Комментарии"
+
+#. Tooltip for 'Include Comments'
+msgid "Adds comments to the G-code (very very helpful!)"
+msgstr "Вставить комментарии в G-код (для профи помогает лучшему пониманию)"
+
+#. Widget
+msgid "Infill Density"
+msgstr "Плотность заполнения"
+
+#. Tooltip for 'Infill Density'
+msgid "Density of the sparse infill (ratio is 1/whole_number)"
+msgstr "Плотность внутреннего заполнения"
+
+#. Widget
+msgid "Infill Extrusion Width [mm]"
+msgstr "Ширина сплошного<LF>заполнения [мм]"
+
+#. Tooltip for 'Infill Extrusion Width [mm]'
+msgid "Compared to the extrusion width: thinner reduces stress / warping, thicker improves bonding"
+msgstr "По сравнению с шириной экструзии : тоньше снижает напряжение и деформации, толще улучшает связь между соседними нитями"
+
+#. Widget
+msgid "Infill Style"
+msgstr "Стиль заполнения"
+
+#. Tooltip for 'Infill Style'
+msgid "Select what kind of sparse infill you want"
+msgstr "Выберите тип внутреннего заполнения"
+
+#. Widget
+msgid "Inflate<LF>Raft"
+msgstr "Расширить<LF>подложку"
+
+#. Tooltip for 'Inflate<LF>Raft'
+msgid "Inflate the raft (or skirt) by this many [mm] in all directions to stick better to the bed"
+msgstr "Расширить подложку или юбку на заданное количество [мм] во всех направлениях для лучшего прилипания к кровати"
+
+#. Widget
+msgid "Inflate<LF>Support"
+msgstr "Расширить<LF>поддержку"
+
+#. Tooltip for 'Inflate<LF>Support'
+msgid "Inflate the support by this many [mm] in all directions (it can help strengthen undercut support)"
+msgstr "Расширить элементы поддержки на заданное кол-во [мм] во всех направлениях (это укрепляет структуру поддержек)"
+
+#. Widget
+msgid "Inset  Surface [mm]"
+msgstr "Сжатие поверхности [мм]"
+
+#. Tooltip for 'Inset  Surface [mm]'
+msgid "Adjust the surface inward (in X,Y plane)"
+msgstr "Сдвигает плоскости поверхности внутрь модели, для точного соответствия наружным размерам."
+
+#. Widget
+msgid "Inside"
+msgstr "Внутри"
+
+#. Tooltip for 'Inside'
+msgid "While extruding everything else set the fan to this Duty Cycle %"
+msgstr "Скорость обдува  % при экструзии всего остального."
+
+#. Widget
+msgid "Keep-Warm"
+msgstr "Преднагрев"
+
+#. Tooltip for 'Keep-Warm'
+msgid "Set head to this temp when not extruding...less energy and ooze ~65% of the main temp is a good rule of thumb"
+msgstr "Температура неактивного экструдера (для мультиэкструдорных принтеров), ~65% от рабочей температуры"
+
+#. Menu Item
+msgid "Languages"
+msgstr "Языки"
+
+#. Widget
+msgid "Layer Thickness [mm]"
+msgstr "Высота слоя [мм]"
+
+#. Tooltip for 'Layer Thickness [mm]'
+msgid "The thickness of each slice ('ply') of plastic extruded"
+msgstr "Высота одного слоя при печати, в общем случае задает качество изделия в целом."
+
+#. Menu Item
+msgid "Load a Language File"
+msgstr "Загрузить файл перевода"
+
+#. Widget
+msgid "Loop / Solid Infill Overlap"
+msgstr "Перекрытие контур/заполнение"
+
+#. Tooltip for 'Loop / Solid Infill Overlap'
+msgid "Controls how close the solid infill gets to the innermost loop (1.0 for maximum overlap)"
+msgstr "Задает как сильно заходит сплошное заполенение на внутренний контурный виток (1.0 для максимального перекрытия)"
+
+#. Widget
+msgid "Loops"
+msgstr "Контур"
+
+#. Tooltip for 'Loops'
+msgid "While extruding Loops, Perimeter, and Crowning set the fan to this Duty Cycle %"
+msgstr "Скорость обдува % при печати периметра, контурных витков и цепочек."
+
+#. Widget
+msgid "Loops go from Inside to Perimeter"
+msgstr "Укладка контура изнутри к периметру"
+
+#. Tooltip for 'Loops go from Inside to Perimeter'
+msgid "Perim->in gives better final dimensions, enabling this gives better overhangs."
+msgstr "Выключение дает лучшие наружние размеры, включение - улучшает построение отрицательных уклонов модели (внешний контур на проваливается вниз а цепляется за внутренние)"
+
+#. Widget
+msgid "Main"
+msgstr "База"
+
+#. Tooltip for 'Main'
+msgid "Temperature of the extruder while extruding"
+msgstr "Базовая тепература экструзии"
+
+#. Widget
+msgid "Material"
+msgstr "Материал"
+
+#. Tooltip for 'Material'
+msgid "Material loaded into extruder 3"
+msgstr "Материал в экструдере 3"
+
+#. Widget
+msgid "Max [mm^3/s]"
+msgstr "Max [мм^3/c]"
+
+#. Tooltip for 'Max [mm^3/s]'
+msgid "Limit the Extruder to not deliver material above this volumetric flow rate (path thickness * width * head_speed)"
+msgstr "Максимальный объём выдавливаемого материала (ограничение для предотвращения срыва насечки прута)"
+
+#. Widget
+msgid "Min Jump[mm]"
+msgstr "Min Прыжок [мм] "
+
+#. Tooltip for 'Min Jump[mm]'
+msgid "Any jump < this threshold will not wipe (or destring on 5D)"
+msgstr "Прыжок меньше этой дистанции не будет использовать очистку (или откату подачи в 5D прошивках)"
+
+#. Widget
+msgid "Min Layer [s]"
+msgstr "Мин."
+
+#. Tooltip for 'Min Layer [s]'
+msgid "If a layer would have been quicker than this, the layer is slowed down"
+msgstr "Если нормальная скорость дает время меньше заданного, то печать слоя будет замедленна"
+
+#. Widget
+msgid "Min [mm^3/s]"
+msgstr "Min [мм^3/с]"
+
+#. Tooltip for 'Min [mm^3/s]'
+msgid "Limit the Extruder to not deliver material below this volumetric flow rate (path thickness * width * head_speed)"
+msgstr "Минимальный объём выдаваемый экструдером. Для экструдеров на базе шаговых двигателей этот параметр равен нулю. Нужен для экструдеров на базе редукторных приводов с  DC моторами (минимальная скорость вращения)"
+
+#. Widget
+msgid "Models"
+msgstr "Модели"
+
+#. Tooltip for 'Models'
+msgid "Shows only the 3D models"
+msgstr "Показать только 3D модели"
+
+#. Widget
+msgid "Models+Paths"
+msgstr "Модель+Путь"
+
+#. Tooltip for 'Models+Paths'
+msgid "Shows the models as transparent, with a layer's paths inside"
+msgstr "Показать модели прозрачными и внутри путь укладки"
+
+#. Widget
+msgid "Number of Extruders"
+msgstr "Число экструдеров"
+
+#. Tooltip for 'Number of Extruders'
+msgid "The number of Extruders on this printer"
+msgstr "Количество экструдеров у этого принтера"
+
+#. Widget
+msgid "Number of Loops"
+msgstr "Число витков."
+
+#. Tooltip for 'Number of Loops'
+msgid "The number of path loops around the perimeter"
+msgstr "Число витков периметра"
+
+#. Widget
+msgid "Object Extruder"
+msgstr "Экструдер изделия"
+
+#. Tooltip for 'Object Extruder'
+msgid "Extruder for printing objects"
+msgstr "Экструдер пачатающий изделие"
+
+#. Widget
+msgid "Offset [mm]  X"
+msgstr "Смещение [мм]  X"
+
+#. Tooltip for 'Offset [mm]  X'
+msgid "Add constant offset to the output G-code (can correct for firmware)"
+msgstr "Добавляет постоянное смещение в вывод G-code (для корректировки прошивки)"
+
+#. Menu Item
+msgid "Open STL Model"
+msgstr "Открыть STL модель"
+
+#. Widget
+msgid "Oversample Resolution [mm]"
+msgstr "Внутренее разрешение модели [мм]"
+
+#. Tooltip for 'Oversample Resolution [mm]'
+msgid "KISSlicer's internal model representation will have at least this resolution"
+msgstr "Внутрення модель KISSlicer`а будет иметь разрешение не хуже заданного значения."
+
+#. Menu Item
+msgid "Path Color Key"
+msgstr "Легенда типов пути"
+
+#. Widget
+msgid "Path%"
+msgstr "Путь%"
+
+#. Tooltip for 'Path%'
+msgid "Show the layer's paths in process"
+msgstr "Показывает путь слоя в процессе"
+
+#. Widget
+msgid "Paths"
+msgstr "Путь"
+
+#. Tooltip for 'Paths'
+msgid "Shows only a single layer's paths, with an orthogonal projection"
+msgstr "Отображать только один слой в ортогональной проекции (сверху)"
+
+#. Widget
+msgid "Perimeter"
+msgstr "Периметр"
+
+#. Tooltip for 'Perimeter'
+msgid "Speed of the head while extruding the perimeter"
+msgstr "Скорость печати периметра"
+
+#. Widget
+msgid "Post-Process"
+msgstr "Скрипт пост обработки"
+
+#. Tooltip for 'Post-Process'
+msgid "Invoke a post process script on <FILE>"
+msgstr "Запустить скрипт пост обработки из <FILE>"
+
+#. Menu Item
+msgid "Preferences"
+msgstr "Настройки"
+
+#. Menu Item
+msgid "Preview On Open STL"
+msgstr "Эскиз открываемого STL"
+
+#. Widget
+msgid "Prime"
+msgstr "Выдача"
+
+#. Tooltip for 'Prime'
+msgid "How many mm to prime before starting a path (uses M227 on BfB printers)"
+msgstr "Сколько мм материала быдет выдавлено перед началом пути (использует M227 на BfB принтерах)"
+
+#. Widget
+msgid "Prime Pillar"
+msgstr "Столб очистки"
+
+#. Tooltip for 'Prime Pillar'
+msgid "Select where to place the wipe pillar, if desired."
+msgstr "Выберите расположение столба очистки"
+
+#. Widget
+msgid "Printer"
+msgstr "Принтер"
+
+#. Tooltip for 'Printer'
+msgid "Selected Printer profile"
+msgstr "Выбор профиля принтера"
+
+#. Menu Item
+msgid "Quickstart Guide"
+msgstr "Краткое руководство"
+
+#. Menu Item
+msgid "Quit KISSlicer"
+msgstr "Выход"
+
+#. Widget
+msgid "Raft"
+msgstr "Подложка"
+
+#. Tooltip for 'Raft'
+msgid "Select the style of raft desired, if any"
+msgstr "Выберите стиль подложки"
+
+#. Widget
+msgid "Raft Extruder"
+msgstr "Экструдер подложки"
+
+#. Tooltip for 'Raft Extruder'
+msgid "Extruder for printing the raft"
+msgstr "Экструдер для печати подложки"
+
+#. Widget
+msgid "Reset"
+msgstr "Сброс"
+
+#. Tooltip for 'Reset'
+msgid "Reset the veiw to be centered on the build bed"
+msgstr "Сброс точки обзора на центр кровати"
+
+#. Menu Item
+msgid "Reset to Default"
+msgstr "Восстановить по умолчанию"
+
+#. Menu Item
+msgid "Revert to English"
+msgstr "Revert to English"
+
+#. Menu Item
+msgid "Revert to original height"
+msgstr "Восстановить исходные размеры"
+
+#. Menu Item
+msgid "Save Packed STL"
+msgstr "Записать скомпанованный STL"
+
+#. Menu Item
+msgid "Save Reference Language File"
+msgstr "Записать шаблон для перевода"
+
+#. Menu Item
+msgid "Scale by X"
+msgstr "Масштаб по X"
+
+#. Widget
+msgid "Settings Level"
+msgstr "Уровень настроек"
+
+#. Tooltip for 'Settings Level'
+msgid "Select your experience level...setings more advanced than this will be disabled"
+msgstr "Выберите ваш уровень опыта, настройки более сложные чем этот уровень будут установлены по умолчанию."
+
+#. Widget
+msgid "Sheath Main<LF>Support"
+msgstr "Ленточная поддержка"
+
+#. Tooltip for 'Sheath Main<LF>Support'
+msgid "Sheathed Support has a perimeter around the sparse support base.  This strengthes the base support, but is very hard to remove if support is *inside* a complex model."
+msgstr "Стержневая поддержка получит ленточное объединение снизу. Это увеличит ее прочность, но может мешать удалению изнутри сложной модели."
+
+#. Widget
+msgid "Sheathe<LF>Z-Roof [mm])"
+msgstr "Z-предел [мм]<LF>лент"
+
+#. Tooltip for 'Sheathe<LF>Z-Roof [mm])'
+msgid "No sheathe will be generated above this height [mm].  Make < 0 to disable the limit."
+msgstr "Не генерировать ленточную поддержку выше этой высоты [мм]. Отрицательное значение убирает предел"
+
+#. Widget
+msgid "Show Settings"
+msgstr "Параметры"
+
+#. Tooltip for 'Show Settings'
+msgid "Show the settings tabs"
+msgstr "Показать панель параметров печати"
+
+#. Widget
+msgid "Skin Thickness [mm]"
+msgstr "Толщина стенок [мм]"
+
+#. Tooltip for 'Skin Thickness [mm]'
+msgid "Will make the solid skin of the model this thick"
+msgstr "Если недостаточно толщины витков будет добавлено сплошное заполнение. Так же используется для вычисления числа сплошных слоев"
+
+#. Menu Item
+msgid "Slice && Save (get filename before slice)"
+msgstr "Slice && Save (Задать имя перед слайсингом)"
+
+#. Widget
+msgid "Solid Infill<LF>and Support"
+msgstr "Сплошное заполнение <LF>и поддержки"
+
+#. Tooltip for 'Solid Infill<LF>and Support'
+msgid "Speed of the head while extruding solid infill and support paths"
+msgstr "Скорость печати сплошного заполнения и поддержек"
+
+#. Widget
+msgid "Sparse Infill"
+msgstr "Внутренее заполнение"
+
+#. Tooltip for 'Sparse Infill'
+msgid "Speed of the head while extruding sparse infill"
+msgstr "Скорость печати внутреннего заполнения"
+
+#. Widget
+msgid "Speed [mm/s]"
+msgstr "Скорость [мм/с]"
+
+#. Tooltip for 'Speed [mm/s]'
+msgid "How fast to retract / prime for destring under 5D firmware."
+msgstr "Скорость для отката/выдачи для прошивок 5D"
+
+#. Widget
+msgid "Stacked Layers"
+msgstr "Объединение слоев"
+
+#. Tooltip for 'Stacked Layers'
+msgid "Sparse Infill and Support are extruded every N layers  (PRO only)"
+msgstr "Печатать внуренее заполнение и элементы поддержки каждые N слоев, уменьшает время печати на малых толщинах слоя ( доступно только для версии PRO)."
+
+#. Widget
+msgid "Style"
+msgstr "Стиль"
+
+#. Tooltip for 'Style'
+msgid "Selected Style profile"
+msgstr "Выбран профиль стиля"
+
+#. Widget
+msgid "Suck"
+msgstr "Откат"
+
+#. Tooltip for 'Suck'
+msgid "How many mm to suck back after ending a path (uses M227 on BfB printers)"
+msgstr "Сколько мм прута будет откачено назад после завершения пути (использует M227 на BfB принтерах)"
+
+#. Widget
+msgid "Support"
+msgstr "Стиль <LF>поддержки"
+
+#. Tooltip for 'Support'
+msgid "Selected Support profile"
+msgstr "Выбран профиль поддержки"
+
+#. Widget
+msgid "Support<LF>Z-Roof [mm])"
+msgstr "Z-предел<LF>поддержек [мм]"
+
+#. Tooltip for 'Support<LF>Z-Roof [mm])'
+msgid "No support will be generated above this height [mm].  Make < 0 to disable the limit."
+msgstr "Не генерировать поддержку выше заданного значения. Установка отрицательного значения убирает ограничение"
+
+#. Widget
+msgid "Support Angle"
+msgstr "Угол поддержки"
+
+#. Tooltip for 'Support Angle'
+msgid "Any surface of the model more than X degrees off vertical will get support."
+msgstr "Любая поверхность имеющая угол от вертикали больше заданного получит структуру поддержки"
+
+#. Widget
+msgid "Support Main Ext"
+msgstr "Экструдер<LF>основной поддержки"
+
+#. Tooltip for 'Support Main Ext'
+msgid "Extruder for printing the lower support"
+msgstr "Экструдер для печати нижней части поддержки"
+
+#. Widget
+msgid "Support-Obj<LF>Interface Ext"
+msgstr "Экструдер<LF>шапки поддержки"
+
+#. Tooltip for 'Support-Obj<LF>Interface Ext'
+msgid "Extruder for printing the top of the support"
+msgstr "Экструдер для печати верхней части поддержки прилегающей к объекту (например водорастворимым пластиком PVA )"
+
+#. Widget
+msgid "Theta"
+msgstr "Угол"
+
+#. Tooltip for 'Theta'
+msgid "Rotate the part around the vertical axis<LF>(Set degrees directly or use buttons)"
+msgstr "Вращение модели вокруг вертикальной оси <LF>Угол задается вводом значения или кнопками"
+
+#. Widget
+msgid "Trigger [mm]"
+msgstr "дистанция [мм]"
+
+#. Tooltip for 'Trigger [mm]'
+msgid "Any jump > this threshold will force a destring on 5D"
+msgstr "Любое перемещение больше этого значения будет осуществляться через откат подачи"
+
+#. Widget
+msgid "Use Defaults"
+msgstr "Умолчания"
+
+#. Tooltip for 'Use Defaults'
+msgid "Force any settings above the 'Settings Level' to use defaults"
+msgstr "Восстановить любые настройки выше \"Уровня настроек\" на значения по умолчанию"
+
+#. Widget
+msgid "Use M101 && M103"
+msgstr "M101 && M103"
+
+#. Tooltip for 'Use M101 && M103'
+msgid "Some firmware types use M101 and M103 to trigger destring.  Note: this is forced on internally for BfB printers"
+msgstr "Некоторые прошивки используют команды M101 и M103 для аппаратной реализации отката и подачи."
+
+#. Menu Item
+msgid "Use Unique Filenames"
+msgstr "Использовать уникальные имена"
+
+#. Widget
+msgid "Warm Time"
+msgstr "Время разогрева"
+
+#. Tooltip for 'Warm Time'
+msgid "Used to estimate extruder warming and cooling times"
+msgstr "Используется для оценки времени нагрева и охлаждения (для много головых принеров )"
+
+#. Widget
+msgid "Wipe"
+msgstr "Очистка"
+
+#. Tooltip for 'Wipe'
+msgid "Before moving to a new region, back-tracks over the most recent path by this distance"
+msgstr "Перед перемещением в новый регион отступаем обратно по траектории для очистки подтека пластика из горячей головы"
+
+#. Menu Item
+msgid "Wizards"
+msgstr "Мастеры настроек"
+
+#. Widget
+msgid "X"
+msgstr "X"
+
+#. Tooltip for 'X'
+msgid "Remove (all copies of) this model from the build"
+msgstr "Удалить все копии этой модели из компановки"
+
+#. Widget
+msgid "X,Y Travel Speed"
+msgstr "X,Y скорость"
+
+#. Tooltip for 'X,Y Travel Speed'
+msgid "Speed of the head while not extruding."
+msgstr "Скорость головы при перемещениях без печати"
+
+#. Widget
+msgid "XY Accel [mm/s^2]"
+msgstr "Ускорения XY"
+
+#. Tooltip for 'XY Accel [mm/s^2]'
+msgid "Acceleration of the print-head in X & Y, used for timing estimates"
+msgstr "Ускорения по X и Y [мм/с^2], используется для рассчёта времени печати"
+
+#. Widget
+msgid "Y"
+msgstr "Y"
+
+#. Widget
+msgid "Z"
+msgstr "Z"
+
+#. Widget
+msgid "Z-Settle [mm]"
+msgstr "Z-Делюфт[мм]"
+
+#. Tooltip for 'Z-Settle [mm]'
+msgid "overshoot then return on Z moves (so last move is against gravity...removes slop)"
+msgstr "обратный ход после движения по  Z (убирает люфт)"
+
+#. Widget
+msgid "Z-Speed"
+msgstr "Скорость Z"
+
+#. Tooltip for 'Z-Speed'
+msgid "Z-bed / Z-head travel speed"
+msgstr "Скорость перемещения по Z (головы или кровати)"
+
+#. Widget
+msgid "Z-lift [mm]"
+msgstr "Z-Лифт [мм]"
+
+#. Tooltip for 'Z-lift [mm]'
+msgid "After a destring (if enabled), before a travel, lift the head by this height."
+msgstr "После отката подачи (если включен), перед перемещением поднимаем печатную голову на эту высоту."

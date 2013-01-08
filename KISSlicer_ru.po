@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid "_Translation_By_"
-msgstr "Сергей Тараненко setar@@roboforum.ru"
+msgstr "Русский перевод: Сергей Тараненко setar@@roboforum.ru"
 
 #. Widget
 msgid " Defaults@>"

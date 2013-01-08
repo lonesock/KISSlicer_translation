@@ -482,6 +482,14 @@ msgstr "База"
 msgid "Temperature of the extruder while extruding"
 msgstr "Базовая тепература экструзии"
 
+#.  Widget
+msgid "Mark Start/Stop"
+msgstr "Аппаратный откат подачи"
+
+#.  Tooltip for 'Mark Start/Stop'
+msgid "Some firmware types use M101/3 or G10/1 to trigger destring.  Note: this is forced to M101/3 internally for BfB printers"
+msgstr "Некоторые прошивки используют команды M101/M103 или G10/G11 для аппаратной реализации отката подачи и пред подачи. M101/M103 используется в BfB принтерах, G10/G11 в прошивке Marlin"
+
 #. Widget
 msgid "Material"
 msgstr "Материал"
@@ -861,14 +869,6 @@ msgstr "Умолчания"
 #. Tooltip for 'Use Defaults'
 msgid "Force any settings above the 'Settings Level' to use defaults"
 msgstr "Восстановить любые настройки выше \"Уровня настроек\" на значения по умолчанию"
-
-#. Widget
-msgid "Use M101 && M103"
-msgstr "M101 && M103"
-
-#. Tooltip for 'Use M101 && M103'
-msgid "Some firmware types use M101 and M103 to trigger destring.  Note: this is forced on internally for BfB printers"
-msgstr "Некоторые прошивки используют команды M101 и M103 для аппаратной реализации отката и подачи."
 
 #. Menu Item
 msgid "Use Unique Filenames"
